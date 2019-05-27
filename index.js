@@ -1,7 +1,7 @@
 var cheerio = require( "cheerio" )
 
 
-var wrapImageTags = function(page){
+var font2zh = function(page){
 
     var $ = cheerio.load(page.content);
 
@@ -24,7 +24,7 @@ module.exports = {
     hooks: {
 
     	'page': function(page){    		
-    		return wrapImageTags(page);
+    		return font2zh(page);
     	}
     },
 
