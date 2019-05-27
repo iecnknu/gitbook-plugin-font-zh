@@ -6,7 +6,7 @@ var font2zh = function(page){
     var $ = cheerio.load(page.content);
 
     var font_reduce = $('font-reduce');
-    font_increase.remove();
+    font_reduce.remove();
     
     page.content = $.html();
 
