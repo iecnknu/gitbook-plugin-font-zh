@@ -5,13 +5,13 @@ var wrapImageTags = function(page){
 
     var $ = cheerio.load(page.content);
 
-    var font_A = $('i.fa.fa-font');
+    var font_A = $('fa-font');
     font_A.attr('class', 'fa fa-cog');
 
-    var font_reduce = $('button.size-2.font-reduce');
+    var font_reduce = $('font-reduce');
     font_increase.text('縮小');
 
-    var font_enlarge = $('button.size-2.font-enlarge');
+    var font_enlarge = $('font-enlarge');
     font_enlarge.text('放大');
     
     page.content = $.html();
