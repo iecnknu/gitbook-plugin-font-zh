@@ -13,13 +13,13 @@
     "devDependencies": {
         "gitbook-plugin": "^4.0.0"
     },
-    "homepage": "https://github.com/iecnknu/gitbook-plugin-image2center",
+    "homepage": "https://github.com/iecnknu/gitbook-plugin-font-zh",
     "repository": {
         "type": "git",
-        "url": "https://github.com/iecnknu/gitbook-plugin-image2center.git"
+        "url": "https://github.com/iecnknu/gitbook-plugin-font-zh.git"
     },
     "bugs": {
-        "url": "https://github.com/iecnknu/gitbook-plugin-image2center/issues"
+        "url": "https://github.com/iecnknu/gitbook-plugin-font-zh/issues"
     },
     "keywords": [
         "gitbook",
