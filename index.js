@@ -6,10 +6,7 @@ var font2zh = function(page){
     var $ = cheerio.load(page.content);
 
     var font_reduce = $('font-reduce');
-    font_increase.text('縮小');
-
-    var font_enlarge = $('font-enlarge');
-    font_enlarge.text('放大');
+    font_increase.remove();
     
     page.content = $.html();
 
